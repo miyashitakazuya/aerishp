@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライベートサロンAeris</title>
+    <meta name="description" content="エアリスです">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- スライダー -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css">
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
+
+
+
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header_wrap">
+            <h1 class="header_logo"><a href="index.html"><img src="./images/Aerisロゴ.png" alt="ロゴ"></a></h1>
+            <nav class="pc_nav">
+                <ul>
+                    <li><a href="./index.html">TOP</a></li>
+                    <li class="g-nav-item"><a href="./index.html#service">SERVICE</a>
+                        <ul class="d-nav">
+                            <li><a href="./removal.html">脱毛</a></li>
+                            <!-- <li><a href="">エステ</a></li> -->
+                            <li><a href="./ nail.html">ネイル</a></li>
+                            <li><a href="./whitening.html">ホワイトニング</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="./index.html#staff">STAFF</a></li>
+                    <li><a href="./index.html#info">SALON INFO</a></li>
+                    <li class="appo_btn"><a href="https://beauty.hotpepper.jp/kr/slnH000510554/coupon/">ご予約はこちら</a></li>
+                </ul>
+            </nav>
+            <button id="js-humberger" type="button" class="humberger" aria-controls="navigation" aria-expanded="false">
+                <span class="humberger__line"></span>
+                <span class="humberger__text"></span>
+            </button>
+            <div class="header__nav-area js-nav-area" id="navigation">
+                <nav id="js-global-navigation" class="global-navigation">
+                    <ul class="global-navigation__list">
+                        <li>
+                            <a href="./index.html" class="global-navigation__link">
+                                TOP
+                            </a>
+                        </li>
+                        <li>
+                            <button type="button" class="global-navigation__link -accordion js-sp-accordion-trigger"
+                                aria-expanded='false' aria-controls="accordion1">
+                                SERVICE
+                            </button>
+                            <div id="accordion1" class="accordion js-accordion">
+                                <ul class="accordion__list">
+                                    <li>
+                                        <a href="./removal.html" class="accordion__link">
+                                            脱毛
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#" class="accordion__link">
+                                            エステ
+                                        </a>
+                                    </li> -->
+                                    <li>
+                                        <a href="./ nail.html" class="accordion__link">
+                                            ネイル
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./whitening.html" class="accordion__link">
+                                            ホワイトニング
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="./index.html#staff" class="global-navigation__link">STAFF</a></li>
+                        <li><a href="#info" class="global-navigation__link">SALON INFO</a></li>
+
+                        <li><a class="global-navigation__link" href="https://www.instagram.com/aeris0033">
+                                <img class="sp-insta_icon" src="./images/Instagram icon.png" alt="インスタアイコン">
+                                Instagram
+                            </a></li>
+                    </ul>
+                    <div id="js-focus-trap" tabindex="0"></div>
+                </nav>
+            </div>
+            <a class="sp_appo_btn" href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000510554">ご予約はこちら</a>
+
+        </div>
+        <a class="insta_link" href="https://www.instagram.com/beautysalonaeris">
+            <img class="insta_icon" src="./images/Instagram icon.png" alt="インスタアイコン">
+            Instagram
+        </a>
+        <div class="scrolldown4 "><span>Scroll</span></div>
+    </header>
+
+
+    <img class="sp_main_picture" src="./images/DSC07694.JPG" alt="">
+
+
+    <!-- トップ下 -->
+    <div class="undertoptext home-contents">
+        <p>上品でシンプルなデザインから、トレンドのアートデザインまで
+            幅広いお客様のニーズに合ったデザインをご提供致します。
+            <br>リクライニングチェアでゆったりと施術をお楽しみください。
+        </p>
+        <img class="main_picture" src="./images/DSC07696.JPG" alt="">
+    </div>
+
+    <!-- ギャラリー -->
+    <div class="gallery_wrap home-contents fade-in fade-in-up">
+        <h2 class="gallery-title">GALLERY</h2>
+        <ul class="gallery fadein">
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/17497226656475.jpg" alt="ギャラリー画像1">
+                </div>
+            </li>
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/17497226664368.jpg" alt="ギャラリー画像2">
+                </div>
+            </li>
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/17497226667380.jpg" alt="ギャラリー画像3">
+                </div>
+            </li>
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/17497226685421.jpg" alt="ギャラリー画像4">
+                </div>
+            </li>
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/17497226697032.jpg" alt="ギャラリー画像5">
+                </div>
+            </li>
+            <li>
+                <div class="gallery_item">
+                    <img src="./images/D9CA01B2F307FD797FEA7ED840DE68CB3BDC5784.jpg" alt="ギャラリー画像6">
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <!-- メニュー -->
+
+    <section class="menu_wrap home-contents fade-in fade-in-up">
+        <h2 class="menu-title">MENU</h2>
+
+        <!-- ジェルネイル -->
+        <h3>GEL NAIL</h3>
+        <div class="menu_contents">
+            <dl class="menu">
+
+                <div>
+                    <dt>ワンカラー</dt>
+                    <dd>&yen;6,600</dd>
+                </div>
+                <p>単色塗りになります。お色一色追加は250円になります。</p>
+
+                <div>
+                    <dt>ワンカラー(2本デザイン)</dt>
+                    <dd>&yen;6,600</dd>
+                </div>
+                <p>単色塗り+片手1本ずつのデザインになります。</p>
+
+
+                <div>
+                    <dt>ブライダルネイル</dt>
+                    <dd>&yen;7,700</dd>
+                </div>
+                <p>お持ち込みデザインも可能です。オーダーチップも可能です。</p>
+
+
+            </dl>
+
+            <dl class="menu">
+
+                <div>
+                    <dt>お持ち込みデザイン or デザインネイル</dt>
+                    <dd>&yen;7,700〜</dd>
+                </div>
+                <p>お持ち込みデザインやサンプルなどからアートネイルのデザインがたくさん入るコースです。</p>
+
+                <div>
+                    <dt>シンプルネイルコース</dt>
+                    <dd>&yen;6,600〜</dd>
+                </div>
+                <p>シンプルに少しデザインが欲しいなと言う方にオススメのコースです。</p>
+
+
+                <div>
+                    <dt>長さ出し(1本)</dt>
+                    <dd>&yen;500</dd>
+                </div>
+                <p>長さ出しがある方はこちらを選択ください。当店ではスカルプを使用していません。ジェルでの長さ出しになります。</p>
+
+            </dl>
+
+        </div>
+
+        <!-- フットネイル -->
+        <h3>FOOT</h3>
+        <div class="menu_contents">
+            <dl class="menu">
+
+                <div>
+                    <dt>ワンカラー(2本デザイン)</dt>
+                    <dd>&yen;7,500</dd>
+                </div>
+                <p>単色塗り+親指に一本ずつデザインが入ります。</p>
+
+            </dl>
+
+            <dl class="menu">
+
+                <!-- <div>
+                    <dt></dt>
+                    <dd>&yen;</dd>
+                </div>
+                <p></p> -->
+
+            </dl>
+
+        </div>
+
+        <!-- ネイルケア -->
+
+        <h3>CARE COLLAR</h3>
+        <div class="menu_contents">
+            <dl class="menu">
+
+                <div>
+                    <dt>ネイルケア</dt>
+                    <dd>&yen;3,300</dd>
+                </div>
+                <p>普段ネイルができない方でもネイルケアで指先をきれいにつるつるに</p>
+
+            </dl>
+
+            <dl class="menu">
+
+                <div>
+                    <dt>フットケアコース</dt>
+                    <dd>&yen;4,400</dd>
+                </div>
+                <p>フットケアのコースになります。ケアにスクラブ、温浴、マッサージにプラスして炭酸スパ付きです。</p>
+
+            </dl>
+
+        </div>
+
+        <!-- オフ -->
+
+        <h3>OFF</h3>
+        <div class="menu_contents">
+            <dl class="menu">
+
+                <div>
+                    <dt>当店オフのみ</dt>
+                    <dd>&yen;2,200</dd>
+                </div>
+                <p>当店にてネイルされた方のオフのみのメニューになります。他店様のオフのみは行なっておりません。</p>
+
+                <div>
+                    <dt>当店オフ（付け替え)</dt>
+                    <dd>&yen;1,100</dd>
+                </div>
+                <p>当店にて前回ネイルされた方はこちらの付け替えオフを選択をお願いします。</p>
+
+
+            </dl>
+
+            <dl class="menu">
+
+                <div>
+                    <dt>他店オフ（付け替え）</dt>
+                    <dd>&yen;2,200</dd>
+                </div>
+                <p>他店様付け替えがある方はこちらも選択をお願いします。</p>
+
+                <p class="off-attention">※付替オフメニューはネイルメニューとセットで予約してください。</p>
+            </dl>
+
+        </div>
+
+    </section>
+
+    <!-- ネイル質問 -->
+
+    <div class="nail-faq_wrap home-contents fade-in fade-in-up">
+        <h2 class="faq-title">FAQ</h2>
+        <div class="qa-list mts">
+            <dl class="qa">
+                <dt>決まったデザインがあるのですが、お持ち込みデザインは可能ですか？</dt>
+                <dd>
+                    <p>可能です。事前にお写真を頂けましたら、お打ち合わせも可能です。
+                        <br>金額はデザインの内容にもよります。
+                    </p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>ジェルネイルはどのくらいもちますか？</dt>
+                <dd>
+                    <p>個人差はあると思いますが3〜4週くらいの頻度で付け替えをなさるお客様がほとんどです</p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>ジェルネイルが浮いてきて空気が入ったみたいに見える</dt>
+                <dd>
+                    <p>ジェルネイルを付けて、3週間以上経つと、良く使う指などのジェルネイルの根元部分が空気が入ったように浮いて、自爪とジェルの間に空洞が出来ます。
+                        <br>手を洗ったり、家事をしたり、お風呂に入ったりするたびに水が入ると、細菌などが繁殖しグリーンネイルの原因になる事もあります。
+                        <br>放置せずにご来店ください。
+                    </p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>爪が短いけれど伸ばしていったほうがいいの？</dt>
+                <dd>
+                    <p>爪が短いからジェルネイルは付けられないと諦めている方意外と多いんです。
+                        <br>でも、最近人気のジェルネイルは自爪の長さのまま表面をコーティングするものですので短くてもネイルを楽しむ事が出来ます。
+                    </p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>ネイルはできないけど、爪はキレイにしてもらえますか？</dt>
+                <dd>
+                    <p>はい、もちろん可能です。ケアメニューをご選択ください。</p>
+                </dd>
+            </dl>
+            <dl class="qa">
+                <dt>予約したいのですがどすればいいですか？</dt>
+                <dd>
+                    <p>予約方法としましては、電話予約・インターネットのホットペッパー・InstagramのDM・公式LINE予約の4種類がございます。</p>
+                </dd>
+            </dl>
+
+
+        </div>
+    </div>
+
+    <!-- インフォメーション -->
+    <div class="info_wrap home-contents fade-in fade-in-up" id="info">
+        <div class="info_contents">
+            <div>
+                <h2 class="info">INFORMATION</h2>
+                <div class="info_text">
+                    <table>
+                        <tr>
+                            <th>住所</th>
+                            <td>長野県諏訪市大字豊田6601</td>
+                        </tr>
+                        <tr>
+                            <th>電話番号</th>
+                            <td><a href="tel:+81-80-7385-1615">080-7385-1615</a></td>
+                        </tr>
+                        <tr>
+                            <th>営業時間</th>
+                            <td>9時〜20時※最終受付19時頃</td>
+                        </tr>
+                        <tr>
+                            <th>定休日</th>
+                            <td>不定休</td>
+                        </tr>
+                        <tr>
+                            <th>駐車場</th>
+                            <td>有り（4台）</td>
+                        </tr>
+                        <tr>
+                            <th>お支払方法</th>
+                            <td>クレジットカード/PayPay/現金/各種分割支払有</td>
+                        </tr>
+    
+                    </table>
+                    <div class="contact_btn">
+                        <a class="btnarrow_line" href="https://page.line.me/136fzscz?openQrModal=true">
+                            <img class="line_icon" src="./images/LINE_APP_iOS.png" alt="">
+                            <p>公式LINE</p>
+                            <div class="gallery_triangle"></div>
+                        </a>
+                    </div>
+                    <p class="contact">【お問合せは公式LINEにて】</p>
+                </div>
+            </div>
+
+            <video class="video" src="./images/video_17651980933530-ffCz1mYh.MP4" loop autoplay muted></video>
+        </div>
+        <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1613.1996110900095!2d138.09724106690658!3d36.03496159630021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c5729b9147eeb%3A0x58eda338c9d554ae!2sBeautySalon%20Aeris!5e0!3m2!1sja!2sjp!4v1674362070447!5m2!1sja!2sjp"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" width="240" height="460" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+
+    <footer>
+        <p class="copylite"><small>&copy; 2023 Aeris Inc.</small> </p>
+    </footer>
+
+
+
+
+
+    <script>
+
+
+        // スムーズスクロール
+        $(function () {
+            $('a[href^="#"]').click(function () {
+                var adjust = -100;
+                var speed = 400;
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top + adjust;
+                $('body,html').animate({ scrollTop: position }, speed, 'swing');
+                return false;
+            });
+        });
+
+
+
+        // 変数定義
+        const CLASS = "-active";
+        let flg = false;
+        let accordionFlg = false;
+
+        let humberger = document.getElementById("js-humberger");
+        let focusTrap = document.getElementById("js-focus-trap");
+        let menu = document.querySelector(".js-nav-area");
+        let accordionTrigger = document.querySelectorAll(".js-sp-accordion-trigger");
+        let accordion = document.querySelectorAll(".js-sp-accordion");
+
+        // メニュー開閉制御
+        humberger.addEventListener("click", (e) => { //ハンバーガーボタンが選択されたら
+            e.currentTarget.classList.toggle(CLASS);
+            menu.classList.toggle(CLASS);
+        });
+
+        // メニュー内アコーディオン制御
+        accordionTrigger.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.currentTarget.classList.toggle(CLASS);
+                e.currentTarget.nextElementSibling.classList.toggle(CLASS);
+                if (accordionFlg) {
+                    e.currentTarget.setAttribute("aria-expanded", "false");
+                    accordionFlg = false;
+                } else {
+                    e.currentTarget.setAttribute("aria-expanded", "true");
+                    accordionFlg = true;
+                }
+            });
+
+        });
+
+
+        // ハンバーガー内リンククリックでメニュー閉じる
+        $('#navigation a[href]').on('click', function (event) {
+            $('.humberger').trigger('click');
+        });
+
+        jQuery(function () {
+
+            var footer = $('footer').innerHeight(); // footerの高さを取得
+
+            window.onscroll = function () {
+                var point = window.pageYOffset; // 現在のスクロール地点 
+                var docHeight = $(document).height(); // ドキュメントの高さ
+                var dispHeight = $(window).height(); // 表示領域の高さ
+
+                if (point > docHeight - dispHeight - footer + 8) { // スクロール地点>ドキュメントの高さ-表示領域-footerの高さ
+                    $('.scrolldown4').addClass('is-hidden'); //footerより下にスクロールしたらis-hiddenを追加
+                } else {
+                    $('.scrolldown4').removeClass('is-hidden'); //footerより上にスクロールしたらis-hiddenを削除
+                }
+            };
+        });
+
+        // ギャラリー
+        $(function () {
+            $('.gallery').slick({
+                autoplay: true,
+                infinite: true,
+                slidesToShow: 5,
+                slidesToScroll: 1,
+                arrows: false,
+                prevArrow: '<span class="prev-arrow">&lt;</span>',
+                nextArrow: '<span class="next-arrow">&gt;</span>',
+                responsive: [
+                    {
+                        breakpoint: 1000, // 767px以下のサイズに適用
+                        settings: {
+                            slidesToShow: 3,
+                        },
+                    },
+                    {
+                        breakpoint: 600, // 767px以下のサイズに適用
+                        settings: {
+                            slidesToShow: 1,
+                        },
+                    },
+                ],
+
+            });
+        });
+
+
+
+
+        // 質問
+        $(".qa-list dd").hide();
+        $(".qa-list dl").on("click", function (e) {
+            $('dd', this).slideToggle('fast');
+            if ($(this).hasClass('open')) {
+                $(this).removeClass('open');
+            } else {
+                $(this).addClass('open');
+            }
+        });
+
+
+        jQuery(function ($) {
+            var fadeIn = $('.fade-in');
+            $(window).scroll(function () {
+                $(fadeIn).each(function () {
+                    var offset = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > offset - windowHeight + 150) {
+                        $(this).addClass("scroll-in");
+                    }
+                });
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

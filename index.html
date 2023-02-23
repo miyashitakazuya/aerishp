@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライベートサロンAeris</title>
+    <meta name="description" content="エアリスです">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <!-- ヘッダー -->
+    <header>
+        <div class="header_wrap">
+            <h1 class="header_logo"><a href="index.html"><img src="./images/Aerisロゴ.png" alt="ロゴ"></a></h1>
+            <nav class="pc_nav">
+                <ul>
+                    <li><a href="./index.html">TOP</a></li>
+                    <li class="g-nav-item"><a href="#service">SERVICE</a>
+                        <ul class="d-nav">
+                            <li><a href="./removal.html">脱毛</a></li>
+                            <!-- <li><a href="">エステ</a></li> -->
+                            <li><a href="./ nail.html">ネイル</a></li>
+                            <li><a href="./whitening.html">ホワイトニング</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#staff">STAFF</a></li>
+                    <li><a href="#info">SALON INFO</a></li>
+                    <li class="appo_btn"><a
+                            href="https://beauty.hotpepper.jp/CSP/kr/reserve/?storeId=H000510554">ご予約はこちら</a></li>
+                </ul>
+            </nav>
+            <button id="js-humberger" type="button" class="humberger" aria-controls="navigation" aria-expanded="false">
+                <span class="humberger__line"></span>
+                <span class="humberger__text"></span>
+            </button>
+            <div class="header__nav-area js-nav-area" id="navigation">
+                <nav id="js-global-navigation" class="global-navigation">
+                    <ul class="global-navigation__list">
+                        <li>
+                            <a href="./index.html" class="global-navigation__link">
+                                TOP
+                            </a>
+                        </li>
+                        <li>
+                            <button type="button" class="global-navigation__link -accordion js-sp-accordion-trigger"
+                                aria-expanded='false' aria-controls="accordion1">
+                                SERVICE
+                            </button>
+                            <div id="accordion1" class="accordion js-accordion">
+                                <ul class="accordion__list">
+                                    <li>
+                                        <a href="./removal.html" class="accordion__link">
+                                            脱毛
+                                        </a>
+                                    </li>
+                                    <!-- <li>
+                                        <a href="#" class="accordion__link">
+                                            エステ
+                                        </a>
+                                    </li> -->
+                                    <li>
+                                        <a href="./ nail.html" class="accordion__link">
+                                            ネイル
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="./whitening.html" class="accordion__link">
+                                            ホワイトニング
+                                        </a>
+                                    </li>
+
+                                </ul>
+                            </div>
+                        </li>
+                        <li><a href="#staff" class="global-navigation__link">STAFF</a></li>
+                        <li><a href="#info" class="global-navigation__link">SALON INFO</a></li>
+
+                        <li><a class="global-navigation__link" href="https://www.instagram.com/aeris0033">
+                                <img class="sp-insta_icon" src="./images/Instagram icon.png" alt="インスタアイコン">
+                                Instagram
+                            </a></li>
+                    </ul>
+                    <div id="js-focus-trap" tabindex="0"></div>
+                </nav>
+
+            </div>
+            <a class="sp_appo_btn" href="https://beauty.hotpepper.jp/kr/slnH000510554/coupon/">ご予約はこちら</a>
+
+        </div>
+        <a class="insta_link" href="https://www.instagram.com/beautysalonaeris">
+            <img class="insta_icon" src="./images/Instagram icon.png" alt="インスタアイコン">
+            Instagram
+        </a>
+        <div class="scrolldown4 "><span>Scroll</span></div>
+    </header>
+
+    <!-- ファーストビュー -->
+    <div class="firstview">
+        <h1 class="catchcopy">「綺麗になること」で幸せになれる場所</h1>
+    </div>
+
+
+    <!-- ニュース -->
+    <div class="news_wrap home-contents fade-in fade-in-up">
+        <h2 class="news">CAMPAIGN</h2>
+        <div class="newscontents">
+            <div class="newscontents_text">
+                <p class="news_title">THR式脱毛!<br>祝2周年12月限定1年間通いたい放題! 全身脱毛24万円</p>
+                <div class="news_morebtn">
+                    <a class="btnarrow4" href="https://beauty.hotpepper.jp/kr/slnH000510554/">
+                        <p>ご予約はこちら</p>
+                        <div class="gallery_triangle"></div>
+                    </a>
+                </div>
+            </div>
+            <img class="newsimg" src="./images/8ed02d43cae0dbc0d4f36633c552f0a2.jpeg" alt="">
+        </div>
+    </div>
+
+    <!-- サービス -->
+    <div class="service_wrap home-contents" id="service">
+        <h2 class="service fade-in fade-in-up">SERVICE</h2>
+        <div class="service_contents1 bgLR fade-in fade-in-up">
+            <a href="./removal.html"><span class="mask"><img class="service_img bgLR" src="./images/DSC07359.JPG"
+                        alt="">
+                    <span class="cap">removal <br>脱毛</span></span></a>
+            <a href="./removal.html"><span class="mask"><img class="service_img_sp bgLR"
+                        src="./images/service_removal_sp.jpg" alt=""></a>
+        </div>
+        <div class="service_contents2 bgLR fade-in fade-in-up">
+            <a href="./ nail.html"><span class="mask"><img class="service_img bgLR" src="./images/DSC07670.JPG" alt="">
+                    <span class="cap">nail <br>ネイル</span></span></a>
+            <a href="./removal.html"><span class="mask"><img class="service_img_sp bgLR"
+                        src="./images/service_nail_sp.jpg" alt=""></a>
+        </div>
+
+        <div class="service_contents3 bgLR fade-in fade-in-up">
+            <a href="./whitening.html"><span class="mask"><img class="service_img bgLR" src="./images/DSC07421.JPG"
+                        alt="">
+                    <span class="cap">whitening <br>ホワイトニング</span></span></a>
+            <a href="./removal.html"><span class="mask"><img class="service_img_sp bgLR"
+                        src="./images/service_whitening_sp.jpg" alt=""></a>
+        </div>
+    </div>
+
+
+
+    <!-- スタッフ -->
+    <div class="staff_wrap">
+        <h2 class="staff fade-in fade-in-up" id="staff">STAFF</h2>
+        <div class="staff_contents home-contents fade-in fade-in-up">
+            <img class="staff_pic" src="./images/DSC07540.JPG" alt="">
+            <div class="staff_presents">
+                <h3 class="staff_name">小松 / Komatsu</h3>
+                <p class="staff_text">
+                    beauty salonAeris(エアリス)オーナー小松です。<br>
+                    流行りのニュアンス系お任せ下さい♪20代から70代までのお客様、年代問わずシンプルでキレイめなデザインが得意です。<br>
+                    「また来たい!」と思って頂けるような接客・施術を心がけています。
+
+                </p>
+                <table class="staff-date">
+                    <tr>
+                        <th>施術歴</th>
+                        <td>9年</td>
+                    </tr>
+                    <tr>
+                        <th>得意な技術<br>デザイン</th>
+                        <td>ニュアンス・シンプル・キレイめ・大人可愛い</td>
+                    </tr>
+                    <tr>
+                        <th>趣味<br>マイブーム</th>
+                        <td>ゴルフ、旅行、ライブ</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+        <div class="staff_contents home-contents fade-in fade-in-up">
+            <img class="staff_pic" src="./images/DSC07368.JPG" alt="">
+            <div class="staff_presents">
+                <h3 class="staff_name">田中 / Tanaka </h3>
+                <p class="staff_text">
+                    専門学校を卒業後も美容が大好きです!
+                    <br>3人の娘を持つ母でもあります。
+                    <br>お客様に最善を尽くすため親身になる心を忘れないようにご対応して参ります。
+                </p>
+                <table class="staff-date">
+                    <tr>
+                        <th>施術歴</th>
+                        <td>7年</td>
+                    </tr>
+                    <tr>
+                        <th>得意な技術<br>デザイン</th>
+                        <td>お客様の肌質、毛質を考慮し、生活面に対してもアドバイスします</td>
+                    </tr>
+                    <tr>
+                        <th>趣味<br>マイブーム</th>
+                        <td>子供と一緒に遊ぶこと♪ バレーボール、オタク</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- インフォメーション -->
+    <div class="info_wrap home-contents fade-in fade-in-up" id="info">
+        <div class="info_contents">
+            <div>
+                <h2 class="info">INFORMATION</h2>
+                <div class="info_text">
+                    <table>
+                        <tr>
+                            <th>住所</th>
+                            <td>長野県諏訪市大字豊田6601</td>
+                        </tr>
+                        <tr>
+                            <th>電話番号</th>
+                            <td><a href="tel:+81-80-7385-1615">080-7385-1615</a></td>
+                        </tr>
+                        <tr>
+                            <th>営業時間</th>
+                            <td>9時〜20時※最終受付19時頃</td>
+                        </tr>
+                        <tr>
+                            <th>定休日</th>
+                            <td>不定休</td>
+                        </tr>
+                        <tr>
+                            <th>駐車場</th>
+                            <td>有り（4台）</td>
+                        </tr>
+                        <tr>
+                            <th>お支払方法</th>
+                            <td>クレジットカード/PayPay/現金/各種分割支払有</td>
+                        </tr>
+    
+                    </table>
+                    <div class="contact_btn">
+                        <a class="btnarrow_line" href="https://page.line.me/136fzscz?openQrModal=true">
+                            <img class="line_icon" src="./images/LINE_APP_iOS.png" alt="">
+                            <p>公式LINE</p>
+                            <div class="gallery_triangle"></div>
+                        </a>
+                    </div>
+                    <p class="contact">【お問合せは公式LINEにて】</p>
+                </div>
+            </div>
+
+            <video class="video" src="./images/video_17651980933530-ffCz1mYh.MP4" loop autoplay muted></video>
+        </div>
+        <iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1613.1996110900095!2d138.09724106690658!3d36.03496159630021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x601c5729b9147eeb%3A0x58eda338c9d554ae!2sBeautySalon%20Aeris!5e0!3m2!1sja!2sjp!4v1674362070447!5m2!1sja!2sjp"
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade" width="240" height="460" style="border:0;"
+        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    <footer>
+        <p class="copylite"><small>&copy; 2023 Aeris Inc.</small> </p>
+    </footer>
+
+
+
+
+
+    <script>
+
+
+        // スムーズスクロール
+        $(function () {
+            $('a[href^="#"]').click(function () {
+                var adjust = -100;
+                var speed = 400;
+                var href = $(this).attr("href");
+                var target = $(href == "#" || href == "" ? 'html' : href);
+                var position = target.offset().top + adjust;
+                $('body,html').animate({ scrollTop: position }, speed, 'swing');
+                return false;
+            });
+        });
+
+
+
+        // 変数定義
+        const CLASS = "-active";
+        let flg = false;
+        let accordionFlg = false;
+
+        let humberger = document.getElementById("js-humberger");
+        let focusTrap = document.getElementById("js-focus-trap");
+        let menu = document.querySelector(".js-nav-area");
+        let accordionTrigger = document.querySelectorAll(".js-sp-accordion-trigger");
+        let accordion = document.querySelectorAll(".js-sp-accordion");
+
+        // メニュー開閉制御
+        humberger.addEventListener("click", (e) => { //ハンバーガーボタンが選択されたら
+            e.currentTarget.classList.toggle(CLASS);
+            menu.classList.toggle(CLASS);
+        });
+
+        // メニュー内アコーディオン制御
+        accordionTrigger.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.currentTarget.classList.toggle(CLASS);
+                e.currentTarget.nextElementSibling.classList.toggle(CLASS);
+                if (accordionFlg) {
+                    e.currentTarget.setAttribute("aria-expanded", "false");
+                    accordionFlg = false;
+                } else {
+                    e.currentTarget.setAttribute("aria-expanded", "true");
+                    accordionFlg = true;
+                }
+            });
+
+        });
+
+        // ハンバーガー内リンククリックでメニュー閉じる
+        $('#navigation a[href]').on('click', function (event) {
+            $('.humberger').trigger('click');
+        });
+
+
+        jQuery(function () {
+
+            var footer = $('footer').innerHeight(); // footerの高さを取得
+
+            window.onscroll = function () {
+                var point = window.pageYOffset; // 現在のスクロール地点 
+                var docHeight = $(document).height(); // ドキュメントの高さ
+                var dispHeight = $(window).height(); // 表示領域の高さ
+
+                if (point > docHeight - dispHeight - footer + 8) { // スクロール地点>ドキュメントの高さ-表示領域-footerの高さ
+                    $('.scrolldown4').addClass('is-hidden'); //footerより下にスクロールしたらis-hiddenを追加
+                } else {
+                    $('.scrolldown4').removeClass('is-hidden'); //footerより上にスクロールしたらis-hiddenを削除
+                }
+            };
+        });
+
+        jQuery(function ($) {
+            var fadeIn = $('.fade-in');
+            $(window).scroll(function () {
+                $(fadeIn).each(function () {
+                    var offset = $(this).offset().top;
+                    var scroll = $(window).scrollTop();
+                    var windowHeight = $(window).height();
+                    if (scroll > offset - windowHeight + 150) {
+                        $(this).addClass("scroll-in");
+                    }
+                });
+            });
+        });
+
+
+    </script>
+
+</body>
+
+</html>
